@@ -24,7 +24,7 @@ public class AtoiFunction {
         while (index < str.length()) {
             char c = str.charAt(index);
             if (c < '0' || c > '9') {
-                return -1; // Invalid entry
+                return -1; 
             }
 
             result = result * 10 + (c - '0');
