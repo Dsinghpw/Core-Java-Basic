@@ -1,0 +1,36 @@
+2. I worked in Tcs from feb 2022 to July 2024 as System Engineer .
+
+		○ Project Name: Reporting
+		○ Client Name: ABN AMRO Bank
+		○ Core Java , SQL , Linux , ServiceNow
+
+
+	• Description:
+	The Transaction Reporting System at ABN AMRO Bank is designed to deliver accurate, real-time reports for every transaction that occurs within the bank’s systems. The Reporting Team is responsible for generating and distributing these reports in various formats, immediately after any transaction happens.
+
+	The project ensures that all transactions are documented and communicated to customers, business teams, and stakeholders, providing a transparent and efficient way to track financial activity. The system automates the process of report generation, ensuring timely delivery and compliance with regulatory standards. These reports include transaction details such as amounts, dates, accounts involved, and other relevant data, allowing recipients to stay informed about their financial activities.
+
+	• Key Responsibilities:
+		○ Development of Transaction Reporting System
+			• Implemented new features and enhancements in the reporting system based on business requirements.
+			• Ensured proper integration of reporting systems with other internal banking systems (e.g., core banking, compliance, and audit systems).
+			• Collaborated with other teams (e.g., QA, business analysts) to ensure accurate data flow and functionality.
+		○ Production Support & Troubleshooting
+			• Identified, diagnosed, and resolved production issues related to data discrepancies, system performance, or application errors.
+			• Monitored application health, performance, and logs to proactively address potential issues.
+			• Coordinated with internal stakeholders to implement quick fixes for production issues while ensuring minimal business disruption.
+		○ Bug Fixes and Issue Resolution
+			• Managed critical incidents, root cause analysis, and implemented solutions to prevent recurrence of the issues.
+		○ Legacy Code Maintenance & Refactoring
+			• Worked with legacy Java code to improve performance, maintainability, and scalability.
+			• Assisted in refactoring legacy modules to improve code quality, enhance functionality, and ensure better compliance with evolving regulations.
+		○ Documentation & Reporting
+			• Maintained comprehensive documentation for all code changes, support procedures, and troubleshooting steps.
+			• Prepared reports on system health, incidents, and resolutions for management review.
+		○ Collaboration and Stakeholder Management
+			• Collaborated with business stakeholders to understand new reporting requirements and changes in regulations.
+			• Worked with the DevOps/Infrastructure team to address deployment issues and ensure smooth production rollouts.
+			• Communicated with cross-functional teams to resolve production challenges and deploy patches.
+		○ Performance Optimization
+			• Identified and implemented performance tuning for the transaction reporting application to ensure scalability and efficient reporting under high loads.
+			• Optimized database queries and application logic to reduce response times and resource consumption.
