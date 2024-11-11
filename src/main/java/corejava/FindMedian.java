@@ -4,7 +4,8 @@ public class FindMedian {
     public static void main(String[] args) {
         int[] arr1 = {2, 3, 5, 8};
         int[] arr2 = {10, 12, 14, 16, 18, 20};
-        System.out.println(findMedianSortedArrays(arr1, arr2));
+      //  System.out.println(findMedianSortedArrays(arr1, arr2));
+        System.out.println(medianOfTwo(arr1, arr2));
     }
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
@@ -33,5 +34,28 @@ public class FindMedian {
         } else {
             return merged[totalLength / 2];
         }
+    }
+    public static int medianOfTwo(int[] arr,int[] arr1){
+        if (arr.length > arr1.length) {
+            int[] temp = arr;
+            arr = arr1;
+            arr1 = temp;
+        }
+        int median=(arr.length+arr1.length)/2;
+        System.out.println(median);
+        int end =arr1.length/2;
+        System.out.println(end);
+        int start =(median- end)-1;
+        System.out.println(start);
+        while(end >-1){
+            if(Math.max(arr[start],arr1[end])<Math.min(arr[start +1],arr1[end +1]))
+            {
+                return Math.max(arr[start],arr1[end]);
+            }
+            else {
+                end--;
+                start++;
+            }
+        }    return -1;
     }
 }

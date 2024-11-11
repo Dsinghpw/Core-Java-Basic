@@ -16,6 +16,7 @@ public class WaveSort {
                 swap(arr, i, i + 1);
             }
         }
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void swap(int[] arr, int i, int j) {
